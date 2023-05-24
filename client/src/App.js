@@ -1,11 +1,10 @@
 import Home from './pages/home/Home'
-import PersonIcon from '@mui/icons-material/Person';
 
 
 function App() {
   return (
-    <PersonIcon />
-  );
+    <Home />
+     );
 }
 
 export default App;
