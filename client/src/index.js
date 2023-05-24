@@ -1,8 +1,11 @@
-import Home from './pages/home/Home';
+import React from 'react'
+import ReactDOM from 'react-dom';
+import App from './App';
 
 
-function App() {
-  return <Home/>;
-}
-
-export default App;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
